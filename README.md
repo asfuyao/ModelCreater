@@ -1,2 +1,6 @@
-# ModelCreater
-Model生成工具
+# Model生成工具
+
+## 主要功能
+
+* 连接各种数据库查看库内所有表（目前只支持MSSQL）
+* 选择要生成Model的表生成所需的Model文件

@@ -1,0 +1,21 @@
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace #name_space
+{
+    /// <summary>
+    /// #table_comments
+    /// </summary>
+    [Serializable]
+    [Table("#table_name")]
+    public partial class #class_name
+    {
+        #field start
+        /// <summary>
+        /// #field_comments
+        /// </summary>
+        public #data_type #field_name { get; set; }
+        #field end
+    }
+}
